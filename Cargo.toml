@@ -1,0 +1,14 @@
+[package]
+name = "proxie-rust-ffi"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "proxie_rust_ffi"
+path = "src/lib.rs"
+
+[dependencies]
+
+[build-dependencies]
+cc = "1.1"
+bindgen = "0.72"
